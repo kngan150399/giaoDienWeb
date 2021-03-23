@@ -1,0 +1,274 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="styles/layout2.css" rel="stylesheet">
+	<link href="styles/bootstrap.min.css" rel="stylesheet">
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+	<!----------------------------------------------------------
+		Vùng header
+	------------------------------------------------------------>
+	<div id="dau">
+		
+		<div class="container" style=" background-color:#FFF8Fa; width: 400px; height: 100px; float:right; padding-top:50px">			
+                 <a href="Dangnhap.html"><button class="btn-link" style="font-size: 18px; "><img src="images/saicon.jpg" width="25px" height="25px">Đăng Nhập</button></a>
+                 <a href="Dangky.html"><button class="btn-link" style="font-size: 18px; "><img src="images/saicon.jpg" width="25px" height="25px">Đăng Ký</button></a>
+                  <a href="Giohang.html"><button class="btn-link" style="font-size: 18px; "><img src="images/saicon.jpg" width="25px" height="25px">Giỏ Hàng</button></a>
+		</div>
+        <div class="logo" style="float:left; padding-left:550px;">
+        <img src="images/logo.png">
+        </div>
+        
+	</div>
+	<!----------------------------------------------------------
+		Vùng trinh bay menu ngang
+	------------------------------------------------------------>
+	<div id="ngang" style="font-size:16px; ">
+	
+		<div class="mynavbar">
+			  <a href="Trangchu.html">Trang Chủ</a>
+              <a href="GioiThieu.html">Giới Thiệu</a>
+			  <a href="TinTuc.html">Tin Tức</a>
+			  <a href="LienHe.html">Liên Hệ</a>
+			  <div class="mydropdown">
+					<button class="dropbtn">Dịch Vụ &nbsp; 
+					  <i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+					  <a href="#">Gói Quà</a>
+					  <a href="#">Giao Hàng</a>
+					  <a href="#">Chuyển Phát Nhanh</a>
+					</div>
+			  </div>		
+			  <div class="search-container">
+					<form action="/action_page.php">
+						<input type="text" placeholder="Search.." name="search">
+						<button type="submit"><i class="fa fa-search"></i></button>
+					</form>
+			  </div>
+		</div>
+
+	</div>
+	<!----------------------------------------------------------
+		Vùng main
+	------------------------------------------------------------>
+	<div id="than2">			
+
+		<div id="giua2" align="center" style="background-image:url(images/bg5.jpg)">
+			<!--------------------------------------------------
+					Vung trinh bay noi dung cac trang con : form dangky.html
+			--------------------------------------------------->
+			<br>
+			<div class="container" style="width:90%;">
+			  <h2>ĐĂNG KÝ KHÁCH HÀNG</h2>
+			  <form class="form-horizontal" name="myform">
+				<div class="form-group" style="width:50%">
+				  <label class="control-label col-sm-2" for="text">Họ tên: </label>
+				  <div class="col-sm-8">
+					<input type="text" class="form-control" id="ten" placeholder="Họ tên" name="ten">
+				  </div>
+				</div>
+				
+				<div class="form-group" style="width:50%">
+				  <label class="control-label col-sm-2" for="text">Email:</label>
+			  	  <div class="col-sm-8">
+					<input type="email" class="form-control" id="email" placeholder="Email" name="email">
+				  </div>
+				</div>
+  
+  				<div class="form-group" style="width:50%">
+				  <label class="control-label col-sm-2" for="text">Địa chỉ:</label>
+				  <div class="col-sm-8">
+					<input type="text" class="form-control" id="dc" placeholder="Địa chỉ :" name="dc">
+				  </div>
+				</div>
+				
+				<div class="form-group" style="width:50%">
+				  <label class="control-label col-sm-2" for="text">Tuổi:</label>
+				  <div class="col-sm-8">
+					<input type="text" class="form-control" id="tuoi" placeholder="Tuổi" name="tuoi">
+				  </div>
+				</div>
+				
+				<div class="form-group" style="width:50%">
+				  <label class="control-label col-sm-2" for="text">Giới tính :</label>
+				  <div class="radio">
+					  <label><input type="radio" name="optradio" checked>Nam</label>
+					  &nbsp;&nbsp;&nbsp;
+					  <label><input type="radio" name="optradio">Nữ </label>
+				  </div>
+				</div>
+				
+				<div class="form-group" style="width:50%">
+				  <label class="control-label col-sm-2" for="text">Nghề nghiệp:</label>	
+				  <div class="col-sm-8">			
+					  <select class="form-control" id="sel1">
+						<option>Sinh viên</option>
+						<option>Công nhân</option>
+						<option>Công chức</option>
+						<option>Kinh doanh</option>
+						<option>Giáo viên</option>
+						<option>Bác sĩ</option>
+					  </select>
+				  </div>
+				</div>
+				<hr size="5px" align="center">
+				<div class="form-group" style="width:50%">
+				  <label class="control-label col-sm-2" for="text">User name:</label>
+				  <div class="col-sm-8">
+					<input type="text" class="form-control" id="name" placeholder="User name" name="name">
+				  </div>
+				</div>
+				
+				<div class="form-group" style="width:50%">
+				  <label class="control-label col-sm-2" for="pwd">Password:</label>
+				  <div class="col-sm-8">          
+					<input type="password" class="form-control" id="pwd" placeholder="Enter password" name="password">
+				  </div>
+				</div>
+	
+				<div class="form-group">        
+					<button type="submit" class="btn-info" onclick="return validateform();" style="font-size: 18px; ">Đăng ký</button>
+                    <br>
+                    <a href="Trangchu.html"><img src="images/back.png" height="30px">Quay lại trang chủ</a>
+				</div>
+				<br>
+				<br>
+			  </form>
+			</div>
+			</div>			
+		</div>
+				
+	
+	
+	<!----------------------------------------------------------
+		Vùng footer
+	------------------------------------------------------------>
+	<div id="chan">
+    <br>
+     <table width="100%" height="100px" style="text-align:left; background-color:#FFF8FA; border-top:2px solid">
+        <tr>
+		<td width="32%"><font style="font-size:25px;">Giới Thiệu</font></td>
+        <td width="29%"><font style="font-size:25px;">Liên Kết</font></td>
+        <td width="39%"><font style="font-size:25px;">KAWAII mở cửa cả tuần </font></td>
+        </tr>
+        <tr>
+        <td><font color="#000" style="font-size:15px;">KAWAII đồ dùng học tập, quà tặng và phụ kiện dễ thương</font></td>
+        <td><a href="#"><font color="#000" style="font-size:15px;">Hướng dẫn mua hàng</font></a></td>
+        <td><font color="#000" style="font-size:15px;">(9:00-22:00) </font></td>
+        </tr>
+        <tr>
+        <td></td>
+        <td><a href="#"><font color="#000" style="font-size:15px;">Hình thức thanh toán</font></a></td>
+        <td><font color="#000" style="font-size:15px;"><img src="images/map.png" width="20px" height="20px"> 123 Sư Vạn Hạnh, P2, Q10, TP.HCM</font></td>
+        </tr>
+        <tr>
+        <td></td>
+        <td><a href="#"><font color="#000" style="font-size:15px;">Chính sách vận chuyển</font></a></td>
+        <td><font color="#000" style="font-size:15px;"><img src="images/phone.png" width="20px" height="20px"> 0812.68.3246</font></td>
+      </tr>
+        <tr>
+        <td></td>
+        <td><a href="#"><font color="#000" style="font-size:15px;">Chính sách đổi trả</font></a></td>
+        <td><font color="#000" style="font-size:15px;"><img src="images/insta.png" width="20" height="20px"> Instagram: @kawaii</font></td>
+        </tr>
+        <tr>
+        <td></td>
+        <td><a href="#"><font color="#000" style="font-size:15px;">Chính sách bảo mật thông tin</font></a></td>
+        <td></td>
+        </tr>
+        <tr>
+        <td></td>
+        <td><a href="#"><font color="#000" style="font-size:15px;">Khách hàng thân thiết</font></a></td>
+        <td></td>
+        </tr>
+      </table>
+	</div>
+
+
+<!--------------------------------------------------------------------------------------------
+Code JavaScript phuc vu cho trang web
+---------------------------------------------------------------------------------------------->	
+<script>
+	/* ********************************************************* */
+	/*  code xu ly Dropdown trong menu doc                                   */
+	/* ***********************************************************/
+	var dropdown = document.getElementsByClassName("dropdown-btn");
+	var i;
+	
+	for (i = 0; i < dropdown.length; i++) {
+	  dropdown[i].addEventListener("click", function() {
+	  this.classList.toggle("active");
+	  var dropdownContent = this.nextElementSibling;
+	  if (dropdownContent.style.display === "block") {
+	  dropdownContent.style.display = "none";
+	  } else {
+	  dropdownContent.style.display = "block";
+	  }
+	  });
+	}
+	
+	/*******************************************************/
+	/* code cho slide Show dung cho san pham ban chay nhat */
+	/*******************************************************/
+	var slideIndex = 0;
+	showSlides();
+	
+	function showSlides() {
+	  var i;
+	  var slides = document.getElementsByClassName("mySlides");
+	  var dots = document.getElementsByClassName("dot");
+	  for (i = 0; i < slides.length; i++) {
+		slides[i].style.display = "none";  
+	  }
+	  slideIndex++;
+	  if (slideIndex > slides.length) {slideIndex = 1}    
+	  for (i = 0; i < dots.length; i++) {
+		dots[i].className = dots[i].className.replace(" active", "");
+	  }
+	  slides[slideIndex-1].style.display = "block";  
+	  dots[slideIndex-1].className += " active";
+	  setTimeout(showSlides, 2000); // Change image every 2 seconds
+	}
+
+	/***********************************************************/
+	/* code cho form dangky.html                             */
+	/***********************************************************/
+	    function validateform() {
+        var ten = document.myform.ten.value;
+		var dc = document.myform.dc.value;
+		var name = document.myform.name.value;
+        var password = document.myform.password.value;
+        var x = document.myform.email.value;
+        var atposition = x.indexOf("@");
+        var dotposition = x.lastIndexOf(".");
+
+ 
+        if (ten == null || ten == "") {
+            alert("Họ Tên không được trống");
+            return false;
+		} else if(atposition < 1 || dotposition < (atposition + 2) || (dotposition + 2) >= x.length) {
+            alert("Nhập lại Email cho đúng.");
+            return false;
+        } else if (dc == null || dc == ""){
+			alert("Địa chỉ không được rỗng.");
+			return false;
+		} else if(name == null || name == "") {
+			alert("User name không được rỗng.");
+			return false;
+        } else if (password.length < 8) {
+            alert("Password phải 8 ký tự trở lên.");
+            return false;
+        }
+	}
+	
+</script>
+</body>
+</html>
